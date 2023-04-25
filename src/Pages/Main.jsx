@@ -4,13 +4,18 @@ import Cardtask from '../Components/Cardtask'
 
 function Main() {
   return (
-    <>
-    <div>Main</div>
-    <div className='add-task'>
-    <Button name="Add Task" />
-    <Cardtask name ="task 1"/>
+    <div className='container-main'>
+    <div className='main'>
+        
+        <div className='container-task'>
+            <div><p>Total task:<Cardtask name ="3"/></p></div>
+        <Button name="Add Task" />
+        </div>
+
+    
+    <Cardtask name ="Task 1"/>
     </div>
-    </>
+    </div>
   )
 }
 
