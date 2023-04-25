@@ -58,6 +58,10 @@ color: #ffffff;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
- 
-  
+}
+.container-card-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

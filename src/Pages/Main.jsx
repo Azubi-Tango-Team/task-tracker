@@ -8,15 +8,18 @@ function Main() {
       <div className="main">
         <div className="container-task">
           <div>
-            <p>
-              Total task:3 
+            <p><b>
+              Total task: 3 
+              </b>
             </p>
           </div>
           <Button name="Add Task" />
         </div>
+        <div className="container-card-task">
         <div className="card-container"> <Cardtask name="Task 1" /></div>
         <div className="card-container"> <Cardtask name="Task 1" /></div>
         <div className="card-container"> <Cardtask name="Task 1" /></div>
+        </div>
       </div>
     </div>
   );
