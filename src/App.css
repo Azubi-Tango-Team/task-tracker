@@ -3,12 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
+ 
 }
 .main {
-  text-align: center;
   background-color: #ffffff;
+  text-align: center;
   width: 768px;
   height: 2000px;
 }
@@ -30,7 +29,35 @@
 }
 .container-task{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ justify-content: space-between;
+ padding-top: 40px;
+ padding-left: 60px;
+ padding-right: 60px;
+ padding-bottom: 30px;
+  
+}
+.btn{
+background-color: #3E36B0;
+width: 176px;
+height: 44px;
+border-radius: 10px;
+font-family: "Poppins";
+font-size: 16px;
+color: #ffffff;
+}
+.p{
+  font-family: "Poppins";
+  font-size: 16px;
+}
+.card-container{
+  padding-bottom: 40px;
+}
+.card-task{
+  width: 590px;
+  height: 117px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 
+  
 }
