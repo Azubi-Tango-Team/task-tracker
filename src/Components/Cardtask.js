@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Cardtask() {
+function Cardtask({name}) {
   return (
-    <div className='card-task'>Cardtask</div>
+    <div className='card-task'>{name}</div>
   )
 }
 
