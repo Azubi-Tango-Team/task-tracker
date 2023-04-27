@@ -6,7 +6,7 @@
  
 }
 .main {
-  background-color: #ffffff;
+  background-color: #e4e4e4;
   text-align: center;
   width: 768px;
   height: 2000px;
@@ -53,7 +53,7 @@ color: #ffffff;
   padding-bottom: 40px;
 }
 .card-task{
-  width: 590px;
+  width: 620px;
   height: 117px;
   background-color: #ffffff;
   border-radius: 20px;

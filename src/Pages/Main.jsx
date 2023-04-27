@@ -17,8 +17,8 @@ function Main() {
         </div>
         <div className="container-card-task">
         <div className="card-container"> <Cardtask name="Task 1" /></div>
-        <div className="card-container"> <Cardtask name="Task 1" /></div>
-        <div className="card-container"> <Cardtask name="Task 1" /></div>
+        <div className="card-container"> <Cardtask name="Task 2" /></div>
+        <div className="card-container"> <Cardtask name="Task 3" /></div>
         </div>
       </div>
     </div>
