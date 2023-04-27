@@ -53,11 +53,17 @@ color: #ffffff;
   padding-bottom: 40px;
 }
 .card-task{
-  width: 620px;
-  height: 117px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 540px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    border-left: 6px solid #3E36B0;
+    display: flex;
+    justify-content: space-between;
 }
 .container-card-task{
   display: flex;
