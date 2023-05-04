@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../Components/Button";
 import Cardtask from "../Components/Cardtask";
 import Form from "../Components/form";
 
+
 function Main() {
+  const [showForm, setShowForm] = useState(false);
+
+  const handleAddTaskClick = () => {
+    setShowForm(true);
+  };
+
+
   return (
     <div className="container-main">
       <div className="main">
@@ -13,19 +21,14 @@ function Main() {
               <b>Total task: 3</b>
             </p>
           </div>
-          <Button name="Add Task" />
+          <Button name="Add Task" onClick={handleAddTaskClick} />
         </div>
       
         <div className="container-card-task">
-
-            <Form name=""/>
-      
-            <Cardtask name="Go shopping" date="16th october 2023" />
-          
-            <Cardtask name="Go to the gym" date="16th october 2023" />
-      
-            <Cardtask name="buy groceries" date="16th october 2023" />
-          
+          <Form/>
+          <Cardtask name="Go shopping" date="16th october 2023" />
+          <Cardtask name="Go to the gym" date="16th october 2023" />
+          <Cardtask name="buy groceries" date="16th october 2023" />
         </div>
       </div>
     </div>
