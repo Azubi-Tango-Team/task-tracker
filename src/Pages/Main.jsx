@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Components/Button";
 import Cardtask from "../Components/Cardtask";
+import Form from "../Components/form";
 
 function Main() {
   return (
@@ -14,7 +15,10 @@ function Main() {
           </div>
           <Button name="Add Task" />
         </div>
+      
         <div className="container-card-task">
+
+            <Form name=""/>
       
             <Cardtask name="Go shopping" date="16th october 2023" />
           
